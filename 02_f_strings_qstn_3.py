@@ -1,0 +1,5 @@
+# Given a product description longer than 80 characters, print a truncated preview with "..." at the end. If it's 80 characters or less, print it as-is.
+
+product_description = "Experience the future of driving with this cutting-edge electric car, designed to deliver exceptional performance, efficiency, and comfort in every journey. Featuring a powerful battery system for extended range, rapid charging capabilities, and a smooth, silent ride, it seamlessly combines sustainability with innovation. The sleek exterior design is complemented by a modern, tech-driven interior equipped with intuitive controls, advanced safety features, and smart connectivity, making every drive not only eco-friendly but also enjoyable and convenient."
+
+print(f"Product Description: {product_description[:80]}{'...' if len(product_description)>80 else ''}")
