@@ -1,9 +1,9 @@
 # Challenge: Create variables for your name, age, city, and whether you're a developer. Print them all using an f-string.
 
-full_name = "Ismail Malik"
-age = 30
-city = "Dar es Salaam"
-is_developer = True
+full_name = "Abbas Mussa"
+age = 27
+city = "Morogoro"
+is_developer = False
 
 print("\n")
 
