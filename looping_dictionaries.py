@@ -24,4 +24,4 @@ print()
 print("Looping through keys and values:")
 
 for key, value in car.items():
-    print(f"Key: {key}, Value: {value}")
+    print(f"{key}: {value}")
