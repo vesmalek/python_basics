@@ -3,15 +3,13 @@
 email = "johndoe@example.co"
 password = "abc12345"
 
-if not email:
-    print("Email is empty. Write the correct email address")
+if not email or not password:
+    print("Email and password are both required.")
 elif "@" not in email:
-    print("Invalid email format.Please write it correctly")
-elif not password:
-    print("Password is empty. Write the correct password")
+    print("Invalid email format.Please write it correctly.")
 elif len(password) < 8:
-    print("Password is less than 8 characters")
+    print("Password is less than 8 characters.")
 else:
-    print("Login successful")
+    print("Login successful.")
 
 
