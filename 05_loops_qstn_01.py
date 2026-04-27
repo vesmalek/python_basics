@@ -9,5 +9,9 @@ cart_items = {
     "ketchup": 2.50
 }
 
+total = 0
 for key, value in cart_items.items():
-    print(f"{key}: {value}")
+    total += value
+    print(f"{key}: {value:.2f}")
+
+print(f"Total: {total:.2f}")
