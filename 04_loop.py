@@ -2,12 +2,11 @@
 # [for loops ✅, while loops ✅, break, continue, range() ✅, nested loops — how to repeat actions]
 
 
-# break
+# continue
 
-teams = ["Man United", "Chelsea", "Aston Villa", "Crystal Palace", "Nottingham Forest", "Liverpool", "Arsenal"]
+programs = ["PCM", "HGE", "EGM", "HKL", "PGM"]
 
-for  team in teams:
-    if team == "Liverpool":
-        print(f"Found: {team}")
-        break
-    print(f"Checking: {team}")
+for program in programs:
+    if program == "HGE" or program == "HKL":
+        continue
+    print(f"{program} holders can join Computer Science")
