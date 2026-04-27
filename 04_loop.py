@@ -1,5 +1,5 @@
 # Python Loops
-# [for loops ✅, while loops ✅, break, continue, range() ✅, nested loops — how to repeat actions]
+# [for loops ✅, while loops ✅, break ✅, continue ✅, range() ✅, nested loops — how to repeat actions]
 
 
 # continue
